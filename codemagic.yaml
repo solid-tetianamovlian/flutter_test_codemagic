@@ -6,7 +6,7 @@ workflows:
       branch_patterns:
         - pattern: '*'
           include: true
-          source: true
+          source: false
     name: Pull Request Checks
     environment:
       flutter: 3.35.0
